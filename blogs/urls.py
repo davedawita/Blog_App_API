@@ -20,7 +20,7 @@ from rest_framework import routers
 from blog.views import BlogViewSet
 
 router = routers.DefaultRouter()
-router.register(r'blogs', BlogViewSet) #register "/todos" routes
+router.register(r'blogs', BlogViewSet)
 
 
 urlpatterns = [
